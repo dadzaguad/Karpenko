@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+z = (((a//b)-(a % b))//(a//b))
+y = ((((a % b)+2)//((a % b)+1)) % 2)
+print('YES' * z + 'NO' * y)
